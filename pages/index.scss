@@ -1,0 +1,47 @@
+.btn-modif {
+  background-color: rgb(103, 103, 243) !important;
+  color: white !important;
+}
+
+.card__absolute {
+  background: none !important;
+  // box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  // border: 1px solid rgba(255, 255, 255, 0.18);
+
+
+  box-shadow: none !important;
+  position: absolute;
+  z-index: 99999999;
+  top: 20px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  &__select-modif {
+    background-color: white;
+  }
+}
+
+.v-card__title {
+  display: block !important;
+  text-align: center !important;
+}
+
+.popup {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.leaflet-popup-content p {
+  margin: 0;
+}
+
+.leaflet-popup {
+  min-width: 300px;
+}
